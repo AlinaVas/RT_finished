@@ -15,22 +15,6 @@
         int: 0.1
 ################
 #### SHAPES ####
-    ellipsoid:
-        cen: (-10.7, 0, 2)
-        col: 0xff7581
-        axis sizes: (3, 1.5, 3)
-        b_p: 100
-        mir: 0
-        texture index: 5, repeat 20
-        trancper: 0
-    sphere:
-        cen: (-0.5, 0, 2)
-        rad: 2
-        col: 0xff0000
-        b_p: 1000
-        mir: 0
-        trancper: 0.3
-        texture index: 0, repeat 1
     plane:
         col: 0xFFFFFF
         cen: (0, 5, 3)
@@ -57,7 +41,7 @@
         limited: -
     cylinder:
         col: 0xFFAAAA
-        cen: (-4, 2.5, 0)
+        cen: (-3, 2.5, 0)
         dir: (0, -1, 0)
         rad: 1.2
         b_p: 1000

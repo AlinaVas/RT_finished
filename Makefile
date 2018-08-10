@@ -12,11 +12,8 @@
 
 CC              =   gcc
 
+C_FLAGS         =   -c -O3 -flto=thin -Ofast -march=native -mtune=native
 
-WWW             =   -Wall -Wextra -Werror # НЕ ЗАБУДЬ ПОВЕРНУТИ МУДІЛА
-
-
-C_FLAGS         =   -c -O3 -flto=thin -Ofast -march=native -mtune=native -Wall -Wextra -Werror
 RTV_FLAGS       =   -F frameworks -framework SDL2 -framework SDL2_ttf -framework SDL2_image -framework OpenCL
 
 SERVER_SRC		=	source/main.c

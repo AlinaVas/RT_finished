@@ -114,7 +114,8 @@ cl_float3 nor, SDL_Surface *texture)
 		h = 2000;
 		w = 2000;
 	}
-	ft_bzero(&pixel, sizeof(t_dot));
+	pixel.y = 0;
+	pixel.x = 0;
 	if (closest_inter->fig->type == SPHERE
 		|| closest_inter->fig->type == ELLIPSOID)
 		pixel = spherical_mapping(closest_inter, nor, h, w);

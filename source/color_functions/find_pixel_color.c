@@ -6,7 +6,7 @@
 /*   By: vmazurok <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/25 20:39:00 by dadavyde          #+#    #+#             */
-/*   Updated: 2018/08/01 22:30:43 by vmazurok         ###   ########.fr       */
+/*   Updated: 2018/08/02 17:23:13 by vmazurok         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ t_channel	find_color(t_rt *rt_data,
 	t_light			*current_lamp;
 	t_channel		light_coef;
 	int				current;
+//	float			i;
 
 	ft_bzero(&light_coef, sizeof(t_channel));
 	current = 0;
